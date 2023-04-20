@@ -9,13 +9,14 @@ background-color: #b46306;
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+
 .display-box {
 font-family: 'Orbitron', sans-serif;
 background-color: #dcdbe1;
 border: solid black 0.5px;
 color: black;
 border-radius: 5px;
-width: 97%;
+width: 90%;
 height: 65%;
 }
 
@@ -23,7 +24,7 @@ height: 65%;
 background-color: #fb3b00;
 }
 
-input[type=button] {
+input {
 font-family: 'Orbitron', sans-serif;
 background-color: #c78e13;
 color: white;
@@ -34,7 +35,7 @@ height: 70%;
 outline: none;
 }
 
-input:active[type=button] {
+input:active {
     background: #e5e5e5;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
